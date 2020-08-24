@@ -1,0 +1,27 @@
+{
+    "name": "proto-language-server",
+    "description": "A bare-bones implementation of a language server in Node.js",
+    "version": "0.1.0",
+    "author": "1C-Soft LLC and others",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lxtk-org/proto-language-server"
+    },
+    "bin": "./lib/server.js",
+    "engines": {
+        "node": ">=12.0.0"
+    },
+    "dependencies": {
+        "vscode-languageserver": "^6.1.1",
+        "vscode-languageserver-textdocument": "^1.0.1"
+    },
+    "devDependencies": {
+        "@types/node": "^12.12.51",
+        "typescript": "^3.9.7"
+    },
+    "scripts": {
+        "build": "tsc -b",
+        "watch": "tsc -b -w"
+    }
+}
