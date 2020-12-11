@@ -1,6 +1,7 @@
 # Proto Language Server
 
-A bare-bones implementation of a language server in Node.js. Ready to fork
+A bare-bones implementation of a language server in Node.js. Ready to use as a
+[template](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
 for your own experiments.
 
 ## Functionality
