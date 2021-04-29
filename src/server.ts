@@ -5,7 +5,7 @@
  * SPDX-License-Identifier: MIT
  ******************************************************************************/
 
-import { createConnection, TextDocuments } from 'vscode-languageserver';
+import { createConnection, TextDocuments } from 'vscode-languageserver/node';
 import { TextDocument } from 'vscode-languageserver-textdocument';
 import * as lsp from 'vscode-languageserver-protocol';
 
